@@ -1,0 +1,96 @@
+/* ==========================================Google Fonts================================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Courgette', cursive; */
+
+
+
+
+/* ==========================================CSS================================== */
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+  background-color: white !important;
+}
+.navbar img {
+  width: 120px;
+  height: 100px;
+  margin: 0px;
+  margin-right: 10px;
+  
+}
+
+.navbar-nav{
+  margin-left: auto;
+}
+
+.navbar-nav li {
+  margin-left: 20px;
+  font-size: 20px;
+  margin-right: 20px;
+
+}
+
+.navbar-nav li a:hover{
+  background-color: crimson;
+  color: aliceblue !important;
+  transition: 0.5s;
+}
+
+
+/* -------------Introduction------------ */
+.left h2{
+
+  color: crimson;
+  font-size: 52px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.left p{
+  font-size: 23px;
+  font-family: 'Courgette', cursive;
+  font-weight: 400;
+}
+
+.getStarted{
+  font-style: 'Montserrat', sans-serif;
+  font-size: 18px;
+  background-color: greenyellow;
+  border-radius: 20px;
+  padding:7px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+.getStarted:hover{
+  background-color:purple;
+  color: white;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.right img{
+  margin-top:20px; 
+}
+
+/* ====================Why Us?============= */
+.whyUs{
+  margin-top: 30px;
+}
+
+.whyUs .title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 34px;
+  text-align: center;
+  padding: 20px;
+  text-decoration: underline;
+  text-decoration-color:cornflowerblue;
+}
