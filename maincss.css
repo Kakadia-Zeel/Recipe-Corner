@@ -94,3 +94,21 @@ nav{
   text-decoration: underline;
   text-decoration-color:cornflowerblue;
 }
+
+.whyUs .innerTitle{
+  font-family: "Poppins", 'Times New Roman', Times, serif;
+  font-size: 27px;
+  text-align: center;
+  padding: 10px;
+  color:purple;
+}
+
+.whyUs img {
+  height: 200px;
+  width: 250px;
+  
+}
+
+.whyUs .innerText{
+  font-family: 'Montserrat', cursive;
+}
