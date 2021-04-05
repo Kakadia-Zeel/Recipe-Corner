@@ -7,10 +7,14 @@
 /* Google fonts end */
 
 /* Styles */
+* {
+  box-sizing: border-box;
+}
 body {
   padding: 0px;
   margin: 0px;
   font-family: 'Montserrat', sans-serif;
+  background-color: whitesmoke;
 }
 
 /* Navbar start */
@@ -21,7 +25,7 @@ nav {
 .navbar img {
   width: 330px;
   height: 80px;
-  margin: 0 10px 0 0;
+  margin: 0 10px;
 }
 
 .navbar-nav {
@@ -33,9 +37,13 @@ nav {
   font-size: 20px;
 }
 
+.navbar-nav li a {
+  border-bottom: 3px solid transparent;
+}
+
 .navbar-nav li a:hover {
-  background-color: crimson;
-  color: aliceblue !important;
+  border-bottom: 3px solid crimson;
+  /* color: aliceblue !important; */
   transition: 0.5s;
 }
 /* Navbar end */
@@ -64,7 +72,7 @@ nav {
 }
 
 .get-started:hover {
-  background-color:purple;
+  background-color: purple;
   color: white;
   padding: 10px;
   transition: 0.5s;
@@ -78,6 +86,22 @@ nav {
 /* Home info section start */
 .home-info-section {
   margin-top: 30px;
+}
+
+.home-info-section .card {
+  border-radius: 10px;
+}
+
+.home-info-section img {
+  height: 250px;
+  object-fit:cover;
+  transform: scale(1);
+  transition: transform 0.7s ease;
+}
+
+.home-info-section img:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
 }
 
 .home-info-section-title {
@@ -97,21 +121,19 @@ nav {
   color: purple;
 }
 
-.home-info-section img {
-  height: 200px;
-  width: 250px;
-  transform: scale(1);
-  transition: transform 0.7s ease;
-}
-
-.home-info-section img:hover {
-  width: 270px;
-  transform: scale(1.05);
-  opacity: 0.8;
-}
-
 .home-info-section-inner-text {
   font-family: 'Montserrat', cursive;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 /* Home info section end */
+
+/* Media queries start*/
+@media (min-width: 768px) and (max-width: 992px) { /* These are the breakpoints as per Bootstrap */
+  /* To change the layout of cards of "home info section" when within this range */
+  .home-info-section {
+    width: 100%;
+    max-width: 100%;
+  }
+  /* Home info section media query end */
+}
+/* Media queries end */
