@@ -1,32 +1,30 @@
-/* ==========================================Google Fonts================================== */
+/* Google fonts start */
+  /* font-family: 'Montserrat', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/* font-family: 'Montserrat', sans-serif; */
 
+  /* font-family: 'Courgette', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-/* font-family: 'Courgette', cursive; */
+/* Google fonts end */
 
-
-
-
-/* ==========================================CSS================================== */
-body{
+/* Styles */
+body {
   padding: 0px;
   margin: 0px;
   font-family: 'Montserrat', sans-serif;
 }
 
-nav{
-  background-color: white !important;
+/* Navbar start */
+nav {
+  background-color: white;
 }
+
 .navbar img {
   width: 330px;
   height: 80px;
-  margin: 0px;
-  margin-right: 10px;
-  
+  margin: 0 10px 0 0;
 }
 
-.navbar-nav{
+.navbar-nav {
   margin-left: auto;
 }
 
@@ -34,90 +32,88 @@ nav{
   margin-left: 20px;
   font-size: 20px;
   margin-right: 20px;
-
 }
 
-.navbar-nav li a:hover{
+.navbar-nav li a:hover {
   background-color: crimson;
   color: aliceblue !important;
   transition: 0.5s;
 }
+/* Navbar end */
 
-/* -------------Introduction------------ */
-.left h2{
-
+/* Introduction start */
+.left h2 {
   color: crimson;
   font-size: 52px;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 
-.left p{
+.left p {
   font-size: 23px;
   font-family: 'Courgette', cursive;
   font-weight: 400;
 }
 
-.getStarted{
+.get-started {
   font-style: 'Montserrat', sans-serif;
   font-size: 18px;
   background-color: greenyellow;
   border-radius: 20px;
-  padding:7px;
+  padding: 7px;
   margin-bottom: 20px;
   float: right;
 }
 
-.getStarted:hover{
+.get-started:hover {
   background-color:purple;
   color: white;
   padding: 10px;
   transition: 0.5s;
 }
 
-.right img{
-  margin-top:20px; 
+.right img {
+  margin-top: 20px; 
 }
+/* Introduction end */
 
-/* ====================Why Us?============= */
-.whyUs{
+/* Home info section start */
+.home-info-section {
   margin-top: 30px;
 }
 
-.whyUs .title{
+.home-info-section-title {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 34px;
   text-align: center;
   padding: 20px;
   text-decoration: underline;
-  text-decoration-color:cornflowerblue;
+  text-decoration-color: cornflowerblue;
 }
 
-.whyUs .innerTitle{
+.home-info-section-inner-title {
   font-family: "Poppins", 'Times New Roman', Times, serif;
   font-size: 27px;
   text-align: center;
   padding: 10px;
-  color:purple;
+  color: purple;
 }
 
-.whyUs img {
+.home-info-section img {
   height: 200px;
   width: 250px;
   transform: scale(1);
   transition: transform 0.7s ease;
-  
 }
 
-.whyUs img:hover {
+.home-info-section img:hover {
   width: 270px;
   transform: scale(1.05);
   opacity: 0.8;
- 
 }
 
-.whyUs .innerText{
+.home-info-section-inner-text {
   font-family: 'Montserrat', cursive;
   padding-bottom: 10px;
 }
+/* Home info section end */
