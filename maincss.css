@@ -29,9 +29,8 @@ nav {
 }
 
 .navbar-nav li {
-  margin-left: 20px;
+  margin: 0 20px;
   font-size: 20px;
-  margin-right: 20px;
 }
 
 .navbar-nav li a:hover {
@@ -50,17 +49,16 @@ nav {
 }
 
 .left p {
-  font-size: 23px;
+  font-size: 24px;
   font-family: 'Courgette', cursive;
   font-weight: 400;
 }
 
 .get-started {
-  font-style: 'Montserrat', sans-serif;
   font-size: 18px;
   background-color: greenyellow;
   border-radius: 20px;
-  padding: 7px;
+  padding: 10px;
   margin-bottom: 20px;
   float: right;
 }
