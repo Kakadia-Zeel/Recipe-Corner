@@ -23,9 +23,9 @@ nav {
 }
 
 .navbar img {
-  width: 330px;
-  height: 80px;
-  margin: 0 10px;
+  width: 230px;
+  height: 70px;
+  margin: 0 50px;
 }
 
 .navbar-nav {
@@ -136,4 +136,14 @@ nav {
   }
   /* Home info section media query end */
 }
+
+@media screen and (max-width: 550px) {
+.navbar img {
+  width: 200px;
+  height: 70px;
+  margin: 0 5px;
+}
+}
+
+
 /* Media queries end */
