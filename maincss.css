@@ -23,8 +23,8 @@ nav {
 }
 
 .navbar img {
-  width: 230px;
-  height: 70px;
+  width: 270px;
+  height: 80px;
   margin: 0 50px;
 }
 
@@ -145,5 +145,14 @@ nav {
 }
 }
 
+@media screen and (max-width: 300px) {
+ 
+  .navbar img {
+    content:  url(images/title.png) !important;
+    width: 170px;
+  
+  }
+ 
+}
 
 /* Media queries end */
