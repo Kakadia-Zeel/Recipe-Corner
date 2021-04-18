@@ -37,6 +37,8 @@ nav {
 
 .navbar-nav li a {
   border-bottom: 3px solid transparent;
+  font-size: 1.3rem;
+
 }
 
 .navbar-nav li a:hover {
@@ -49,7 +51,9 @@ nav {
 /* Content wrapper start */
 .content-wrapper {
     border-radius: 25px;
+    /* height: 70%; */
     background-color: white;
+    
 }
 
 .login-section h1 {
@@ -76,7 +80,8 @@ nav {
 
 /* Display image start */
 .display-image-section img {
-    height: 461px;
+    height: 518px;
+    width: 100%;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
