@@ -1,0 +1,124 @@
+/* Google fonts start */
+    /* font-family: 'Montserrat', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+    /* font-family: 'Overpass', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,600;0,800;0,900;1,400;1,800;1,900&display=swap');
+
+    /* font-fammily: "Poppins", sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap');
+/* Google fonts end */
+
+/* Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Navbar start */
+nav {
+  background-color: white;
+}
+
+.navbar img {
+  width: 270px;
+  height: 60px;
+  margin: 0 50px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav li {
+  margin: 0 20px;
+  font-size: 1.3rem;
+}
+
+.navbar-nav li a {
+  border-bottom: 3px solid transparent;
+}
+
+.navbar-nav li a:hover {
+  border-bottom: 3px solid crimson;
+  transition: 0.5s;
+}
+/* Navbar end */
+
+/* Page header start */
+.page-header {
+  position: relative;
+  z-index: 10;
+  background-image: url("../images/breadcumb.jpg");
+  height: 200px;
+  border-left: 12px solid tomato; /*#00aeef => Color of favicon*/
+  width: 92%;
+}
+
+.bg-img {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-overlay {
+  position: relative;
+  z-index: 2;
+  background-position: center center;
+  background-size: cover;
+}
+.bg-overlay::after {
+  background-color: rgba(10, 12, 18, 0.60);
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+
+.search-bar input {
+    height: 50px;
+}
+
+.btn-search {
+    height: 50px;
+    width: 50px;
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+}
+/* Page header end */
+
+/* Categories start */
+.category-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: 5px underline tomato;
+}
+
+.category-type-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.category-type-img:hover {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+  transform: scale(1.05);
+}
+
+.sub-categories h3 {
+  text-align: center;
+  font-size: 1.2rem;
+}
+/* Categories end */
