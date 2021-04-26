@@ -10,10 +10,11 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: url("../../images/login-background-image.png");
+  background-image: url("../images/login-background-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  font-size: 0.95rem;
 }
 
 /* Navbar start */
@@ -23,7 +24,7 @@ nav {
 
 .navbar img {
   width: 270px;
-  height: 60px;
+  height: 50px;
   margin: 0 50px;
 }
 
@@ -37,7 +38,7 @@ nav {
 
 .navbar-nav li a {
   border-bottom: 3px solid transparent;
-  font-size: 1.3rem;
+  font-size: 1.15rem;
 
 }
 
@@ -51,9 +52,7 @@ nav {
 /* Content wrapper start */
 .content-wrapper {
     border-radius: 25px;
-    /* height: 70%; */
-    background-color: white;
-    
+    background-color: white;    
 }
 
 .login-section h1 {
@@ -80,7 +79,7 @@ nav {
 
 /* Display image start */
 .display-image-section img {
-    height: 518px;
+    height: 461px;
     width: 100%;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;

@@ -10,7 +10,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: url("../../images/login-background-image.png");
+  background-image: url("../images/login-background-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 0.95rem;
@@ -24,7 +24,7 @@ nav {
 
 .navbar img {
   width: 270px;
-  height: 60px;
+  height: 50px;
   margin: 0 50px;
 }
 
@@ -34,7 +34,7 @@ nav {
 
 .navbar-nav li {
   margin: 0 20px;
-  font-size: 1.3rem;
+  font-size: 1.15rem;
 }
 
 .navbar-nav li a {
@@ -72,7 +72,7 @@ nav {
 
 /* Display image start */
 .display-image-section img {
-    height: 560px;
+    height: 100%;
     width: 100%;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
