@@ -24,7 +24,7 @@ nav {
 
 .navbar img {
   width: 270px;
-  height: 50px;
+  height: 70px;
   margin: 0 50px;
 }
 
@@ -34,7 +34,7 @@ nav {
 
 .navbar-nav li {
   margin: 0 20px;
-  font-size: 1.15rem;
+  font-size: 1.5em;
 }
 
 .navbar-nav li a {

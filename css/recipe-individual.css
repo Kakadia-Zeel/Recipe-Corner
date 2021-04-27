@@ -1,0 +1,349 @@
+/* Google fonts start */
+  /* font-family: 'Montserrat', sans-serif; */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+  /* font-family: 'Courgette', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* Google fonts end */
+
+/* Styles */
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("./images/login-background-image.png");
+  /* background-color: whitesmoke; */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Navbar start */
+nav {
+  background-color: white;
+}
+
+.navbar img {
+  width: 270px;
+  height: 70px;
+  margin: 0 50px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav li {
+  margin: 0 20px;
+  font-size: 1.5em;
+}
+
+.navbar-nav li a {
+  border-bottom: 3px solid transparent;
+}
+
+.navbar-nav li a:hover {
+  border-bottom: 3px solid crimson;
+  /* color: aliceblue !important; */
+  transition: 0.5s;
+}
+/* Navbar end */
+
+/* Heading start */
+
+.heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  margin-top: 2%;
+  
+}
+
+.veg-logo img{
+  height: 0.9em;
+}
+
+.author-date{
+  font-size: 1.2rem;
+  color: grey;
+  font-style: italic;
+}
+
+.rating{
+  font-size:18px;
+  font-style: italic;
+}
+.fa{
+  color: gold;
+  font-style: normal;
+}
+
+/* Heading ends */
+
+
+/* Image Section Starts */
+.container {
+  margin-top: 20px;
+}
+
+.row{
+  margin-top: 20px;
+}
+
+.recipe-img img {
+ 
+  height: auto;
+  width: 100%;
+}
+
+.prep-info {
+
+  /* background-color: grey; */
+  font-size: 25px;
+  color: black;
+  height: 60%;
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.prep-icon {
+  color:crimson;
+  margin-bottom: 30px;
+}
+
+.fa-btn {
+  color: rgb(240, 240, 220);
+}
+.share-btn, .bookmark-btn {
+  padding: 2px;
+  background-color: rgb(221, 30, 68);
+  border-radius: 10px;
+  width: 60%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: aliceblue;
+
+}
+
+
+
+/* Image Section Ends */
+
+
+/* content */
+
+.about{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+/* ingredients */
+
+.ingredient-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  background-color: rgb(100, 237, 100);
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+}
+
+.ingredient-list{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ingredient-list-title{
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bolder;
+  color: rgb(197, 29, 71);
+}
+
+/* Ingredient list ends */
+
+/* Steps */
+.step-container{
+  margin-top: 40px;
+}
+.step-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin-bottom: 30px;
+  background-color: rgb(237, 100, 146);
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+.step-title{
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  color: gray;
+
+}
+
+.step-info{
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+
+.step-img img{
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+}
+
+/* Steps Ends */
+
+/* Tips */
+
+.tips{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin-bottom: 30px;
+  background-color: rgb(100, 109, 237);
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+.tips-block{
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+
+
+
+
+/* Footer start */
+.footer-basic {
+  padding: 40px 0;
+  color: white;
+  background-color: #3c3d41;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 28px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  /*border-radius: 50%;*/
+  /*border: 1px solid #ccc;*/
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+/* Footer end */
+
+/* Media queries start*/
+@media screen and (max-width: 550px) {
+.navbar img {
+  width: 200px;
+  height: 70px;
+  margin: 0 5px;
+}
+
+.recipe-img img {
+ 
+  height: 300px;
+  width: 300px;
+}
+
+.prep-info {
+  font-size: 15px;
+  color: black;
+  margin: 0px;
+  width: auto;
+}
+
+
+.share-btn, .bookmark-btn {
+  font-size: 16px;
+  background-color: rgb(221, 30, 68);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: auto;
+  width: 200px;
+  color: aliceblue;
+}
+
+.step-img img{
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+}
+
+
+}
+
+@media screen and (max-width: 300px) {
+ 
+  .navbar img {
+    content:  url(../images/title.png) !important;
+    width: 170px;
+  }
+ 
+}
+
+/* Media queries end */
