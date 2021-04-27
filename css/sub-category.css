@@ -39,7 +39,7 @@ nav {
 
 .navbar-nav li {
   margin: 0 20px;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 .navbar-nav li a {
@@ -192,3 +192,14 @@ nav {
   margin-bottom: 0;
 }
 /* Footer end */
+
+
+/* Media Queries */
+
+@media screen and (max-width: 550px) {
+  .navbar img {
+    width: 200px;
+    height: 70px;
+    margin: 0 5px;
+  }
+  }
