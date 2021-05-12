@@ -1,29 +1,34 @@
 /* Google fonts start */
-/* font-family: 'Montserrat', sans-serif; */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+  /* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+  /* font-family: 'Courgette', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 /* Google fonts end */
 
 /* Styles */
 * {
   box-sizing: border-box;
 }
-
 body {
-  font-family: "Montserrat", sans-serif;
-  background-image: url("../images/login-background-image.png");
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("./images/login-background-image.png");
+  /* background-color: whitesmoke; */
+
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
 }
 
 /* Navbar start */
 nav {
-    background-color: white;
+  background-color: white;
 }
 
 .navbar img {
   width: 270px;
-  height: 60px;
+  height: 70px;
   margin: 0 50px;
 }
 
@@ -33,12 +38,11 @@ nav {
 
 .navbar-nav li {
   margin: 0 20px;
+  font-size: 1.4em;
 }
 
 .navbar-nav li a {
   border-bottom: 3px solid transparent;
-  font-size: 1.3rem;
-
 }
 
 .navbar-nav li a:hover {
@@ -78,38 +82,9 @@ nav {
 
 /* Display image start */
 .display-image-section img {
-    height: 461px;
+    height: 100vh;
     width: 100%;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 /* Display image end */
-
-
-
-/* Media quries start */
-    /* To change the height and width of navbar image in small-screen devices. */
-@media screen and (max-width: 550px) {
-  .navbar img {
-    width: 200px;
-    height: 70px;
-    margin: 0 5px;
-  }
-}
-
-    /* To change the height and width of navbar image on extra small-screen devices. */
-@media screen and (max-width: 300px) {
-  .navbar img {
-    content: url("../../images/title.png") !important;
-    width: 170px;
-  }
-}
-
-    /* To adjust the width of the container on extra small-screen devices. */
-@media screen and (max-width: 576px) {
-    .container {
-        margin: 0 1rem;
-        width: auto;
-    }    
-}
-/* Media quries end */

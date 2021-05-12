@@ -1,56 +1,14 @@
-/* Google fonts start */
-/* font-family: 'Montserrat', sans-serif; */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-/* font-family: 'Overpass', sans-serif; */
-@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,600;0,800;0,900;1,400;1,800;1,900&display=swap");
 
-/* font-fammily: "Poppins", sans-serif */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap");
-/* Google fonts end */
-
-/* Styles */
-* {
-  box-sizing: border-box;
-}
 
 body {
   padding: 0px;
   margin: 0px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-image: none !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* Navbar start */
-nav {
-  background-color: white;
-}
-
-.navbar img {
-  width: 270px;
-  height: 70px;
-  margin: 0 50px;
-}
-
-.navbar-nav {
-  margin-left: auto;
-}
-
-.navbar-nav li {
-  margin: 0 20px;
-  font-size: 1.4em;
-}
-
-.navbar-nav li a {
-  border-bottom: 3px solid transparent;
-}
-
-.navbar-nav li a:hover {
-  border-bottom: 3px solid crimson;
-  transition: 0.5s;
-}
-/* Navbar end */
 
 /* Page header start */
 .page-header {
@@ -102,6 +60,8 @@ nav {
 
 .single-recipe .recipe-img {
   border-bottom: 5px solid #40ba37;
+  height: 350px;
+  width: 400px;
 }
 
 .recipe-content {
@@ -130,76 +90,3 @@ nav {
   height: 15px;
 }
 /* Main content of the page (sub-category) end */
-
-/* Footer start */
-.footer-basic {
-  padding: 40px 0;
-  color: white;
-  background-color: #3c3d41;
-}
-
-.footer-basic ul {
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 0;
-}
-
-.footer-basic li {
-  padding: 0 10px;
-}
-
-.footer-basic ul a {
-  color: inherit;
-  text-decoration: none;
-  opacity: 0.8;
-}
-
-.footer-basic ul a:hover {
-  opacity: 1;
-}
-
-.footer-basic .social {
-  text-align: center;
-  padding-bottom: 25px;
-}
-
-.footer-basic .social > a {
-  font-size: 28px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  display: inline-block;
-  text-align: center;
-  /*border-radius: 50%;*/
-  /*border: 1px solid #ccc;*/
-  margin: 0 8px;
-  color: inherit;
-  opacity: 0.75;
-}
-
-.footer-basic .social > a:hover {
-  opacity: 0.9;
-}
-
-.footer-basic .copyright {
-  margin-top: 15px;
-  text-align: center;
-  font-size: 13px;
-  color: #aaa;
-  margin-bottom: 0;
-}
-/* Footer end */
-
-
-/* Media Queries */
-
-@media screen and (max-width: 550px) {
-  .navbar img {
-    width: 200px;
-    height: 70px;
-    margin: 0 5px;
-  }
-  }

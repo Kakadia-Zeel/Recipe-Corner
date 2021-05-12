@@ -1,69 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
+    session_start();
+    include_once('header.php'); 
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+<?php
+include '../css/recipe-categories.css';
+?>
+</style>
 
-    <!-- Favicon  -->
-    <link rel="icon" href="../images/favIcon.png">
 
-    <!-- FontAwesomeIcons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- CSS start -->
-    <!-- Bootsrap Stylesheet-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
-    <!-- General Stylesheet -->
-    <link rel="stylesheet" href="../css/recipe-categories.css" type="text/css">
-    <!-- CSS end -->
-
-    <title>Recipe Corner</title>
-</head>
-
-<body>
-    <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow">
-        <a class="navbar-brand" href="#"><img src="../images/logo.png" /></a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span>
-                <i class="fa fa-bars" style="color:black; font-size:30px;"></i>
-            </span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbar-nav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../index.html">Home</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Recipes</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="./login.html">Login</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="./sign-up.html">Sign Up</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Navbar end -->
-
-    <!-- Page header start -->
-    <header class="page-header shadow bg-img bg-overlay container-fluid my-5">
+ <!-- Page header start -->
+ <header class="page-header shadow bg-img bg-overlay container-fluid my-5">
         <div class="row h-100 align-items-center">
             <div class="page-header-title align-self-end align-self-md-center col-12 col-md-7 col-lg-8">
                 <h1 class="display-5 text-center text-white">Explore Recipes</h1>
@@ -91,7 +40,7 @@
 
             <div class="row">
                 <div class="sub-category p-4 col-12 col-sm-6 col-md-3">
-                    <a href="./sub-category.html#punjabi" class="more-recipes-link">
+                    <a href="sub-category.php" class="more-recipes-link">
                         <img src="../images/punjabi-food.jpg" alt="" class="mx-auto d-block">
 
                         <h3 class="text-center mt-3">Punjabi</h3>
@@ -99,7 +48,7 @@
                 </div>
 
                 <div class="sub-category p-4 col-12 col-sm-6 col-md-3">
-                    <a href="./sub-category.html#gujarati" class="more-recipes-link">
+                    <a href="sub-category.php" class="more-recipes-link">
                         <img src="../images/punjabi-food.jpg" alt="" class="mx-auto d-block">
 
                         <h3 class="text-center mt-3">Gujarati</h3>
@@ -107,7 +56,7 @@
                 </div>
 
                 <div class="sub-category p-4 col-12 col-sm-6 col-md-3">
-                    <a href="./sub-category.html#italian" class="more-recipes-link">
+                    <a href="sub-category.php" class="more-recipes-link">
                         <img src="../images/punjabi-food.jpg" alt="" class="mx-auto d-block">
 
                         <h3 class="text-center mt-3">Italian</h3>
@@ -115,7 +64,7 @@
                 </div>
 
                 <div class="p-4 col-12 col-sm-6 col-md-3 my-5" style="position: relative;">
-                    <a href="./sub-category.html" class="more-recipes-link">
+                    <a href="sub-category.php" class="more-recipes-link">
                         <div class="more-recipes text-center">
                             <span class="fa fa-plus more-recipes-icon p-2"></span>
                             <p class="more-recipes-text">More recipes</p>
@@ -132,7 +81,7 @@
 
             <div class="row">
                 <div class="sub-category p-4 col-12 col-sm-6 col-md-3">
-                    <a href="./sub-category.html" class="more-recipes-link">
+                    <a href="sub-category.php" class="more-recipes-link">
                         <img src="../images/healthy.jpg" alt="" class="mx-auto d-block">
 
                         <h3 class="text-center mt-3">Low Carb</h3>
@@ -140,7 +89,7 @@
                 </div>
 
                 <div class="sub-category p-4 col-12 col-sm-6 col-md-3">
-                    <a href="./sub-category.html" class="more-recipes-link">
+                    <a href="sub-category.php" class="more-recipes-link">
                         <img src="../images/healthy.jpg" alt="" class="mx-auto d-block">
 
                         <h3 class="text-center mt-3">Low Calorie</h3>
@@ -148,7 +97,7 @@
                 </div>
 
                 <div class="sub-category p-4 col-12 col-sm-6 col-md-3">
-                    <a href="./sub-category.html" class="more-recipes-link">
+                    <a href="sub-category.php" class="more-recipes-link">
                         <img src="../images/healthy.jpg" alt="" class="mx-auto d-block">
 
                         <h3 class="text-center mt-3">High Fibre</h3>
@@ -156,7 +105,7 @@
                 </div>
 
                 <div class="p-4 col-12 col-sm-6 col-md-3 my-5" style="position: relative;">
-                    <a href="./sub-category.html" class="more-recipes-link">
+                    <a href="sub-category.php" class="more-recipes-link">
                         <div class="more-recipes text-center">
                             <span class="fa fa-plus more-recipes-icon p-2"></span>
                             <p class="more-recipes-text">More recipes</p>
@@ -173,7 +122,7 @@
 
             <div class="row">                
                 <div class="sub-category p-4 col-12 col-sm-6 col-md-3">
-                    <a href="./sub-category.html" class="more-recipes-link">
+                    <a href="sub-category.php" class="more-recipes-link">
                         <img src="../images/cake.jpg" alt="" class="mx-auto d-block">
 
                         <h3 class="text-center mt-3">Cookies</h3>
@@ -181,7 +130,7 @@
                 </div>
 
                 <div class="sub-category p-4 col-12 col-sm-6 col-md-3">
-                    <a href="./sub-category.html" class="more-recipes-link">
+                    <a href="sub-category.php" class="more-recipes-link">
                         <img src="../images/cake.jpg" alt="" class="mx-auto d-block">
 
                         <h3 class="text-center mt-3">Cakes</h3>
@@ -189,7 +138,7 @@
                 </div>
 
                 <div class="sub-category p-4 col-12 col-sm-6 col-md-3">
-                    <a href="./sub-category.html" class="more-recipes-link">
+                    <a href="sub-category.php" class="more-recipes-link">
                         <img src="../images/cake.jpg" alt="" class="mx-auto d-block">
 
                         <h3 class="text-center mt-3">Ice Cream</h3>
@@ -197,7 +146,7 @@
                 </div>
 
                 <div class="p-4 col-12 col-sm-6 col-md-3 my-5" style="position: relative;">
-                    <a href="./sub-category.html" class="more-recipes-link">
+                    <a href="sub-category.php" class="more-recipes-link">
                         <div class="more-recipes text-center">
                             <span class="fa fa-plus more-recipes-icon p-2"></span>
                             <p class="more-recipes-text">More recipes</p>
@@ -209,36 +158,4 @@
         <!-- Category 3 end -->
     </main>
     <!-- Main content of the page (categories) end -->
-
-    <!-- Footer start -->
-    <footer class="footer-basic">
-        <div class="social">
-            <a href="#"><i class="fa fa-envelope"></i></a>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-        </div>
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="#">Home</a></li>
-            <li class="list-inline-item"><a href="./pages/recipe-categories.html">Recipes</a></li>
-            <li class="list-inline-item"><a href="#">About</a></li>
-            <li class="list-inline-item"><a href="#">Terms</a></li>
-        </ul>
-        <p class="copyright">Recipe Corner © 2021</p>
-    </footer>
-    <!-- Footer end -->
-
-    <!-- Bootstrap JavaScript files start -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <!-- Bootstrap JavaScript files end -->
-</body>
-
-</html>
+  <?php include_once('footer.php'); ?>

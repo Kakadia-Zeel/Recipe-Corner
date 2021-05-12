@@ -15,8 +15,6 @@ body {
   margin: 0px;
   font-family: 'Montserrat', sans-serif;
   background-image: url("./images/login-background-image.png");
-  /* background-color: whitesmoke; */
-
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -28,7 +26,7 @@ nav {
 
 .navbar img {
   width: 270px;
-  height: 70px;
+  height: 60px;
   margin: 0 50px;
 }
 
@@ -38,7 +36,7 @@ nav {
 
 .navbar-nav li {
   margin: 0 20px;
-  font-size: 1.4em;
+  font-size: 1.3rem;
 }
 
 .navbar-nav li a {
